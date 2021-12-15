@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/index.css" type="text/css">
+    <link rel="stylesheet" href="/checkout.css" type="text/css">
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="checkout.js" defer></script>
+    <script src="cart.js" defer></script>
+    <title>Placeholder</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Welcome!</h1>
+      <h3>Here is this week's list of products. Please note that you may only have one product max for each item. Enjoy!</h3>
+    </div>
+
+    <section>
+      <div class="grid-container">
+      <% for (var i = 0; i < products.length; i++) { %>
+      <div class="shop-item">
+        <span class="shop-item-title"><%= products[i].name %></span>
+        <img class="shop-item-image" src=<%= products[i].img_src %> />
+        <div class="shop-item-details">
+          <span class="shop-item-price"><%= products[i].price %></span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <% } %>
+      </div>
+    </section>
+
+    <section class="container content-section">
+      <h2 class="section-header">CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items">
+      </div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+      </div>
+    </section>
+
+    <!-- Display a payment form -->
+    <div class="email-input" style="text-align: center;">
+      <input type="text" placeholder="Enter your email..."/>
+    </div>
+    <form id="payment-form">
+      <div id="payment-element">
+        <!--Stripe.js injects the Payment Element-->
+      </div>
+      <button id="submit">
+        <div class="spinner hidden" id="spinner"></div>
+        <span id="button-text">Pay now</span>
+      </button>
+      <div id="payment-message" class="hidden"></div>
+    </form>
+
+  </body>
+</html>

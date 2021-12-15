@@ -1,0 +1,62 @@
+[
+  {
+    "img_src": "/images/Rancho_1.jpg",
+    "name": "Rancho Gordo - Vaquero Beans",
+    "price": "$12.59"
+  },
+  {
+    "img_src": "/images/Rancho_2.jpeg",
+    "name": "Rancho Gordo - Mayocoba Beans",
+    "price": "$12.59"
+  },
+  {
+    "img_src": "/images/Rancho_3.jpg",
+    "name": "Rancho Gordo - Christmas Lime Beans",
+    "price": "$12.59"
+  },
+  {
+    "img_src": "/images/Rancho_4.jpg",
+    "name": "Rancho Gordo - Scarlet Runner Beans",
+    "price": "$12.59"
+  },
+  {
+    "img_src": "/images/Rancho_5.jpg",
+    "name": "Rancho Gordo - Oregano Indio Spices",
+    "price": "$14.79"
+  },
+  {
+    "img_src": "/images/Rancho_6.jpg",
+    "name": "Rancho Gordo - Cassoulet Beans",
+    "price": "$12.59"
+  },
+  {
+    "img_src": "/images/Rancho_7.jpg",
+    "name": "Rancho Gordo - Yellow Eye Beans",
+    "price": "$12.59"
+  },
+  {
+    "img_src": "/images/Rancho_8.jpg",
+    "name": "Rancho Gordo - Marcella Beans",
+    "price": "$12.59"
+  },
+  {
+    "img_src": "/images/Rancho_9.jpg",
+    "name": "Rancho Gordo - Garbanzos Classic Chickpeas Beans",
+    "price": "$12.59"
+  },
+  {
+    "img_src": "/images/Rancho_10.jpg",
+    "name": "Rancho Gordo - Ayacote Blanco Beans",
+    "price": "$12.59"
+  },
+  {
+    "img_src": "/images/Rancho_11.jpeg",
+    "name": "Rancho Gordo - French Green Lentils",
+    "price": "$12.59"
+  },
+  {
+    "img_src": "/images/Rancho_12.jpg",
+    "name": "Rancho Gordo - Cranberry Beans",
+    "price": "$12.59"
+  }
+]
